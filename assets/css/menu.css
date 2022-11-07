@@ -4,6 +4,36 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-line {
-    border: bottom solid 1px black;
+.titleline {
+    position: relative;
+    z-index: -1;
+    top: -1.2rem;
+ }
+
+
+.title_bg {
+    position: relative;
+    z-index: 2;
+}
+
+ .titleline_black {
+    position: relative;
+    z-index: 1;
+    top: -1.2rem;
+ }
+
+/* Carouselle */
+
+.carrousel {
+    background-image: url(/assets/img/buns.jpg);
+    background-size: 50%;
+}
+
+.psa {
+    font-size: small;
+}
+
+@media all and (max-device-width: 480px)
+{
+
 }

@@ -13,235 +13,435 @@
 
 <body>
 
-    <header class="bg-dark">
+    <header id="home">
+        <div class="bg-dark g-0">
+            <div class="row align-items-center bg-dark mx-lg-5 py-lg-1">
 
-        <div class="row align-items-center bg-dark mx-lg-5 py-lg-1">
+                <!-- Logo -->
 
-            <!-- Logo -->
-
-            <div class="col-lg-1 bg-dark">
-                <img src="assets/img/logo-small.png" class="img-fluid" alt="logo">
-            </div>
-
-            <!-- Navbar -->
-
-            <nav class="col-lg-11 navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Pickles Burger</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown link
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
+                <div class="col-lg-1 bg-dark">
+                    <img src="assets/img/logo-small.png" class="img-fluid" alt="logo">
                 </div>
-              </nav>
-        </div>
 
+                <!-- Navbar -->
+
+                <nav class="col-lg-11 navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">
+                    <div class="container-fluid">
+                    <a class="navbar-brand ps-2" href="#">Pickles Burger</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end ps-3" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#cheese">Cheeseburger</a></li>
+                                <li><a class="dropdown-item" href="#don">Don Gorske</a></li>
+                                <li><a class="dropdown-item" href="#smash">Smash</a></li>
+                                <li><a class="dropdown-item" href="#hot">Hot Sriracha</a></li>
+                                <li><a class="dropdown-item" href="#cowboy">Cowboy</a></li>
+                                <li><a class="dropdown-item" href="#mali">Maliblue</a></li>
+                                <li><a class="dropdown-item" href="#nwc">Normandy West Coast</a></li>
+                                <li><a class="dropdown-item" href="#cali">California Love</a></li>
+                                <li><a class="dropdown-item" href="#blackjack">Black Jack</a></li>
+                                <li><a class="dropdown-item" href="#cfc">Crispy Fried Chicken</a></li>
+                                <li><a class="dropdown-item" href="#bad">Badhass (Végétarien)</a></li>
+                                <li><a class="dropdown-item" href="#beyond">Bacon Beyond Cheese (Végétarien)</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#addons">Formules, desserts & boissons</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            
+                <div class="row pt-3 mx-2">
+                    <p class="col-lg-6 text-start text-white"><b>Adresse :</b> 35 rue Pierre Guinard, Le Havre, France</p>
+                    <p class="col-lg-6 text-end text-white"><b>Téléphone :</b> 09 84 37 58 29</p>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
-
         <!-- Carrousel -->
-
-        <div class="col-4 mx-auto d-none d-lg-block d-xl-block d-xxl-block m-2">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="https://via.placeholder.com/800x600" class="rounded d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+        <div class="carrousel">
+            <div class="col-4 mx-auto d-none d-lg-block d-xl-block d-xxl-block mt-5">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
                     </div>
-                </div>
-                <div class="carousel-item"data-bs-interval="10000">
-                    <img src="https://via.placeholder.com/800x600" class="rounded d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="/assets/img/cheese.jpg" class="rounded d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Cheeseburger</h5>
+                        <p>Boeuf haché, cheddar 9 mois, oignons frits, iceberg, pickles, sauce mayonnaise, ketchup & moutarde américaine.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-item" data-bs-interval=10000">
-                    <img src="https://via.placeholder.com/800x600" class="rounded d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <div class="carousel-item"data-bs-interval="5000">
+                        <img src="/assets/img/don.jpg" class="rounded d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Don Gorske</h5>
+                        <p>Boeuf haché, cheddar 9 mois, iceberg, oignons, pickles, sauce.</p>
+                        </div>
                     </div>
+                    <div class="carousel-item" data-bs-interval=5000">
+                        <img src="assets/img/hot.jpg" class="rounded d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Hot Sriracha</h5>
+                        <p>Boeuf haché, cheddar, iceberg, pickles carottes, oignons frits, piment jalapeños, sauce mayonnaise sriracha.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval=5000">
+                        <img src="/assets/img/cowboy.jpg" class="rounded d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Cowboy</h5>
+                        <p>Boeuf haché, poitrine fumée, cheddar 18 mois, beignets d'oignons, oignons confits, sauce mayonnaise et barbecue.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval=5000">
+                        <img src="/assets/img/mali.jpg" class="rounded d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Maliblue</h5>
+                        <p>Boeuf haché, poitrine fumée, blue stilton, iceberg, pickles, oignons confits, sauce mayonnaise et porto.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval=5000">
+                        <img src="/assets/img/nwc.jpg" class="rounded d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Normandy West Coast</h5>
+                        <p>Boeuf haché, poitrine fumée, camembert, iceberg, oignons frits, gelée de cidre, pickles de graine de moutarde, sauce moutarde au miel.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval=5000">
+                        <img src="/assets/img/cali2.jpg" class="rounded d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>California Love</h5>
+                        <p>Boeuf haché, cheddar 9 mois, iceberg, oignons frits, guacamole, pickles, sauce mayonnaise chipotle.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval=5000">
+                        <img src="/assets/img/blackjack.jpg" class="rounded d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Black Jack</h5>
+                        <p>Pain burger NOIR, boeuf haché, poitrine fumée, cheddar 9 mois, iceberg, oignons frits, pickles, sauce mayonnaise & barbecue JACK DANIEL'S</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval=5000">
+                        <img src="/assets/img/cfc2.jpg" class="rounded d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Crispy Fried Chicken</h5>
+                        <p>Haut de cuisse de poulet mariné dans du buttermilk, pané, poitrine fumée, cheddar 9 mois, iceberg, oignons frits, pickles, sauce bacconnaise</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
 
         <!-- Menu -->
 
-        <div class="h1 text-center mt-3"><span class="bg-white px-2">MENU</span></div>
+        <div id="menu" class="h1 text-center mt-5"><span class="bg-white px-2">MENU</span></div>
         <div class="titleline border-top border-dark mb-3"></div>
 
-
-        <div class="row justify-content-center mt-lg-4 bg-dark text-white">
-            <div class="col-lg-2 fw-bold">
-                <p class="text-uppercase">Cheese burger</p>
-            </div> 
-
-            <div class="col-lg-7 text-center">
-                <p> dqflih khcglubsvygjboigvuhgwhukbhfubvigffihibqvqbb   bufifqiuqfui eg q qbqfgfqiuqibuiu ib b ugqbggqf bgqub qgquguqfguqfgfbq giu bguqfubfqguiqfg quigqfgiuqfg fuqi bqgfb qfgi q</p>
-            </div>
-
-            <div class="col-lg-1 fw-bold">
-                <div>9,00€</div>
-            </div>
-
  
-        <!-- Cheeseburger     -->
+        <!-- Cheeseburger ok    -->
 
-        <div class="row justify-content-center mt-lg-4 bg-dark text-white">
+        <div id="cheese" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 ">
             <div class="col-lg-2 fw-bold">
-                <p class="text-uppercase">Cheese burger</p>
+                <p class="text-uppercase">Cheeseburger</p>
             </div> 
 
             <div class="col-lg-7 text-center">
-                <p> dqflih khcglubsvygjboigvuhgwhukbhfubvigffihibqvqbb   bufifqiuqfui eg q qbqfgfqiuqibuiu ib b ugqbggqf bgqub qgquguqfguqfgfbq giu bguqfubfqguiqfg quigqfgiuqfg fuqi bqgfb qfgi q</p>
+                <div class="my-lg-2">Boeuf haché, cheddar 9 mois, oignons frits, iceberg, pickles, sauce mayonnaise, ketchup & moutarde américaine.</div>
             </div>
 
             <div class="col-lg-1 fw-bold">
-                <div>9,00€</div>
+                <div class="text-end pt-2">9,00€</div>
+            </div>
         </div>
 
-        <!-- Don Gorske -->
+        <!-- Don Gorske ok -->
 
-        <div class="row justify-content-center mt-lg-4 bg-dark text-white">
+        <div id="don" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 ">
             <div class="col-lg-2 fw-bold">
-                <p class="text-uppercase">Cheese burger</p>
+                <p class="text-uppercase">Don Gorske</p>
             </div> 
 
             <div class="col-lg-7 text-center">
-                <p> dqflih khcglubsvygjboigvuhgwhukbhfubvigffihibqvqbb   bufifqiuqfui eg q qbqfgfqiuqibuiu ib b ugqbggqf bgqub qgquguqfguqfgfbq giu bguqfubfqguiqfg quigqfgiuqfg fuqi bqgfb qfgi q</p>
+                <div class="my-lg-2"><span class="fw-bold">RECETTE DU MYTHIQUE BIG MAC AVEC NOS PRODUITS !</span><br>
+                Notre hommage à la sauce la plus addictive de la planète et à Don Gorske, l'homme qui mange un big-mac par jour depuis 45 ans ! Record du monde quand même ! Boeuf haché, cheddar 9 mois, iceberg, oignons, pickles, sauce.</div>
             </div>
 
             <div class="col-lg-1 fw-bold">
-                <div>9,00€</div>
+                <div class="text-end pt-2">9,00€</div>
+            </div>
         </div>
 
+        <!-- Smash ok -->
+
+        <div id="smash" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 ">
+            <div class="col-lg-2 fw-bold">
+                <p class="text-uppercase">Smash</p>
+            </div> 
+
+            <div class="col-lg-7 text-center">
+                <div class="my-lg-2">Double steak (2x65gr) et oignons smachés, cheddar 9 mois, iceberg, pickles, sauce secrète.</div>
+            </div>
+
+            <div class="col-lg-1 fw-bold">
+                <div class="text-end pt-2">9,00€</div>
+            </div>
+        </div>
+
+        <!-- Hot Sriracha -->
+
+        <div id="hot" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 ">
+            <div class="col-lg-2 fw-bold">
+                <p class="text-uppercase">Hot Sriracha</p>
+            </div> 
+
+            <div class="col-lg-7 text-center">
+                <div class="my-lg-2">Boeuf haché, cheddar, iceberg, pickles carottes, oignons frits, piment jalapeños, sauce mayonnaise sriracha.</div>
+            </div>
+
+            <div class="col-lg-1 fw-bold">
+                <div class="text-end pt-2">10,00€</div>
+            </div>
+        </div>
+
+        <!-- Cowboy ok -->
+
+        <div id="cowboy" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 ">
+            <div class="col-lg-2 fw-bold">
+                <p class="text-uppercase">Cowboy</p>
+            </div> 
+
+            <div class="col-lg-7 text-center">
+                <div class="my-lg-2">Boeuf haché, poitrine fumée, cheddar 18 mois, beignets d'oignons, oognons confits, sauce mayonnaise et barbecue.</div>
+            </div>
+
+            <div class="col-lg-1 fw-bold">
+                <div class="text-end pt-2">10,00€</div>
+            </div>
+        </div>
+
+        <!-- Maliblue ok -->
+
+        <div id="mali" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+            <div class="col-lg-2 fw-bold">
+                <p class="text-uppercase">Maliblue</p>
+            </div> 
+
+            <div class="col-lg-7 text-center">
+                <div class="my-lg-2">Boeuf haché, poitrine fumée, blue stilton, iceberg, pickles, oignons confits, sauce mayonnaise et porto.</div>
+            </div>
+
+            <div class="col-lg-1 fw-bold">
+                <div class="text-end pt-2">10,00€</div>
+            </div>
+        </div>
+
+        <!-- Normandy West Coast ok -->
+
+        <div id="nwc" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+            <div class="col-lg-2 fw-bold">
+                <p class="text-uppercase">Normandy West Coast</p>
+            </div> 
+
+            <div class="col-lg-7 text-center">
+                <div class="my-lg-2">Boeuf haché, poitrine fumée, camembert, iceberg, oignons frits, gelée de cidre, pickles de graine de moutarde, sauce moutarde au miel.</div>
+            </div>
+
+            <div class="col-lg-1 fw-bold">
+                <div class="text-end pt-2">10,00€</div>
+            </div>
+        </div>
+
+        <!-- California Love ok -->
+
+        <div id="cali" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+            <div class="col-lg-2 fw-bold">
+                <p class="text-uppercase">California Love</p>
+            </div> 
+
+            <div class="col-lg-7 text-center">
+                <div class="my-lg-2">Boeuf haché, cheddar 9 mois, iceberg, oignons frits, guacamole, pickles, sauce mayonnaise chipotle.</div>
+            </div>
+
+            <div class="col-lg-1 fw-bold">
+                <div class="text-end pt-2">10,00€</div>
+            </div>
+        </div>
+
+        <!-- Black Jack ok -->
+
+        <div id="blackjack" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+            <div class="col-lg-2 fw-bold">
+                <p class="text-uppercase">Black Jack</p>
+            </div> 
+
+            <div class="col-lg-7 text-center">
+                <div class="my-lg-2">Pain burger NOIR, boeuf haché, poitrine fumée, cheddar 9 mois, iceberg, oignons frits, pickles, sauce mayonnaise & barbecue JACK DANIEL'S</div>
+            </div>
+
+            <div class="col-lg-1 fw-bold">
+                <div class="text-end pt-2">10,00€</div>
+            </div>
+        </div>
+
+        <!-- Crispy Fried Chicken ok -->
+
+        <div id="cfc" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+            <div class="col-lg-2 fw-bold">
+                <p class="text-uppercase">Crispy Fried Chicken</p>
+            </div> 
+
+            <div class="col-lg-7 text-center">
+                <div class="my-lg-2">Haut de cuisse de poulet mariné dans du buttermilk, pané, poitrine fumée, cheddar 9 mois, iceberg, oignons frits, pickles, sauce bacconnaise</div>
+            </div>
+
+            <div class="col-lg-1 fw-bold">
+                <div class="text-end pt-2">10,00€</div>
+            </div>
+        </div>
+
+        <!-- Badhass (Végétarien) -->
+
+        <div id="bad" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+            <div class="col-lg-2 fw-bold">
+                <p class="text-uppercase">Badhass (Végétarien)</p>
+            </div> 
+
+            <div class="col-lg-7 text-center">
+                <div class="my-lg-2">Galette de pomme de terre et petits légumes, cheddar 9 mois, avocat, iceberg, oignons frits, relish, sauce mayonnaise chipotle.
+            </div>
+            </div>
+
+            <div class="col-lg-1 fw-bold">
+                <div class="text-end pt-2">9,00€</div>
+            </div>
+        </div>
+
+        <!-- Bacon Beyond Cheese (Végétarien) -->
+
+        <div id="beyond" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+            <div class="col-lg-2 fw-bold">
+                <p class="text-uppercase">Bacon Beyond Cheese (Végétarien)</p>
+            </div> 
+
+            <div class="col-lg-7 text-center">
+                <div class="my-lg-2">Steak végétal Beyond Meat, bacon végétal, cheddar 9 mois, iceberg, oignons frits, pickles, sauce secrète.</div>
+            </div>
+
+            <div class="col-lg-1 fw-bold">
+                <div class="text-end pt-2">12,00€</div>
+            </div>
+        </div>
+
+        <!-- Addons -->
+
+        <div id="addons" class="addon bg-dark text-white mt-5 pt-3">
+            <p class="fw-bold text-center text-uppercase h4">Doublez la viande & le fromage de votre burger ! +3,50€</p>
+
+            <p class="fw-bold text-center text-uppercase h4 pt-5">Steak végétal Beyond Meat : +2,00€</p>
+            <p class="text-center">Incroyable steak à base de légumineuses disponible en remplacement de la viande dans tous nos burgers !</p>
+
+            <p class="fst-italic text-center">*Sauces BBQ et Kimchi non adaptées au regime alimentaire végétarien.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="h1 text-center mt-3"><span class="title_bg bg-dark px-2">FRITES</span></div>
+                    <div class="titleline_black border-top mb-3"></div>
+                    <p class="text-center">Classique <b>3,00€</b>
+                    <br>Frites patates douces <b>3,50€</b></p>
+
+                    <div class="h1 text-center mt-3"><span class="bg-dark px-2">BOISSONS</span></div>
+                    <p class="text-center">Eau Cristaline · 50cl : <b>1,50€</b>
+                    <br>Coca Cola · 33cl : <b>2,00€</b>
+                    <br>Coca Cola zéro · 33cl : <b>2,00€</b>
+                    <br>Dr Pepper · 33cl : <b>2,00€</b>
+                    <br>Sprite · 33cl : <b>2,00€</b>
+                    <br>Perrier · 33cl : <b>2,00€</b>
+                    </p>
+
+
+                    <div class="h1 text-center mt-3"><span class="bg-dark px-2">DESSERT</span></div>
+                    <p class="text-center">The incredible brownie <b>4,90€</b>
+                    <br>Cheesecake <b>4,90€</b>
+                    <br>Milkshake <b>5,90€</b>
+                    <br><span class="">(Vanille, fraise, speculoos, oréo, beurre de cacahuète)</span></p>
+                </div>
+
+
+
+                <div class="col-lg-4">
+                    <div class="h1 text-center mt-3"><span class="title_bg bg-dark px-2">MENUS*</span></div>
+                    <div class="titleline_black border-top border-white mb-3"></div>
+                    <p class="text-center"><b>+4,00€</b>
+                    <br> au prix du burger choisi</p>
+
+                    <div class="text-center">
+                        <div class="h5">BURGER + FRITES + BOISSONS</div>
+                        <p class="fst-italic">*Frites de patates douces +1,00€</p>
+                    </div>
+
+                    <div class="titleline-black border-top mt-5 mb-3"></div>
+
+                    <p class="text-center"><b>+8,00€</b>
+                        <br> au prix du burger choisi</p>
         
+                        <div class="text-center">
+                            <div class="h5">BURGER + FRITES + BOISSONS + DESSERT</div>
+                            <p class="fst-italic mb-0">*Frites de patates douces +1,00€</p>
+                            <p class="fst-italic">*Milkshake 40cl +1,00€</p>
+                        </div>
+        
+                        <div class="titleline border-top border-dark mt-5 mb-3"></div>
 
-        <div class="row justify-content-center mt-lg-4 bg-dark text-white">
-            <div class="col-lg-2 fw-bold">
-                <p class="text-uppercase">Cheese burger</p>
-            </div> 
-
-            <div class="col-lg-7 text-center">
-                <p> dqflih khcglubsvygjboigvuhgwhukbhfubvigffihibqvqbb   bufifqiuqfui eg q qbqfgfqiuqibuiu ib b ugqbggqf bgqub qgquguqfguqfgfbq giu bguqfubfqguiqfg quigqfgiuqfg fuqi bqgfb qfgi q</p>
+                        <div class="psa text-center">
+                            <p class="fst-italic">Poids avant la cuisson, steack haché 130gr environ, steak végétal Beyon Meat 115gr, filet de poulet 130gr environ. Viandes élevées et abattues dn France. La cuisson pour les steack est à point.</p>
+                            <p class="text-uppercase">Nous n'acceptons pas les chèques.</p>
+                        </div>
+                </div>
             </div>
-
-            <div class="col-lg-1 fw-bold">
-                <div>9,00€</div>
-        </div>
-
-
-        <div class="row justify-content-center mt-lg-4 bg-dark text-white">
-            <div class="col-lg-2 fw-bold">
-                <p class="text-uppercase">Cheese burger</p>
-            </div> 
-
-            <div class="col-lg-7 text-center">
-                <p> dqflih khcglubsvygjboigvuhgwhukbhfubvigffihibqvqbb   bufifqiuqfui eg q qbqfgfqiuqibuiu ib b ugqbggqf bgqub qgquguqfguqfgfbq giu bguqfubfqguiqfg quigqfgiuqfg fuqi bqgfb qfgi q</p>
-            </div>
-
-            <div class="col-lg-1 fw-bold">
-                <div>9,00€</div>
-        </div>
-
-
-        <div class="row justify-content-center mt-lg-4 bg-dark text-white">
-            <div class="col-lg-2 fw-bold">
-                <p class="text-uppercase">Cheese burger</p>
-            </div> 
-
-            <div class="col-lg-7 text-center">
-                <p> dqflih khcglubsvygjboigvuhgwhukbhfubvigffihibqvqbb   bufifqiuqfui eg q qbqfgfqiuqibuiu ib b ugqbggqf bgqub qgquguqfguqfgfbq giu bguqfubfqguiqfg quigqfgiuqfg fuqi bqgfb qfgi q</p>
-            </div>
-
-            <div class="col-lg-1 fw-bold">
-                <div>9,00€</div>
-        </div>
-
-
-
-        <div class="row justify-content-center mt-lg-4 bg-dark text-white">
-            <div class="col-lg-2 fw-bold">
-                <p class="text-uppercase">Cheese burger</p>
-            </div> 
-
-            <div class="col-lg-7 text-center">
-                <p> dqflih khcglubsvygjboigvuhgwhukbhfubvigffihibqvqbb   bufifqiuqfui eg q qbqfgfqiuqibuiu ib b ugqbggqf bgqub qgquguqfguqfgfbq giu bguqfubfqguiqfg quigqfgiuqfg fuqi bqgfb qfgi q</p>
-            </div>
-
-            <div class="col-lg-1 fw-bold">
-                <div>9,00€</div>
-        </div>
-
-
-
-        <div class="row justify-content-center mt-lg-4 bg-dark text-white">
-            <div class="col-lg-2 fw-bold">
-                <p class="text-uppercase">Cheese burger</p>
-            </div> 
-
-            <div class="col-lg-7 text-center">
-                <p> dqflih khcglubsvygjboigvuhgwhukbhfubvigffihibqvqbb   bufifqiuqfui eg q qbqfgfqiuqibuiu ib b ugqbggqf bgqub qgquguqfguqfgfbq giu bguqfubfqguiqfg quigqfgiuqfg fuqi bqgfb qfgi q</p>
-            </div>
-
-            <div class="col-lg-1 fw-bold">
-                <div>9,00€</div>
-        </div>
     </main>
 
     <footer>
-
-    
+        <div class="">
+        Hébergé par GitHub
+        Propriété intellectuelle 
+        Créateur Thomas Gouel @ thomas.gouel@gmail.com
+        </div>
     </footer>
-
-
-
-
-
-
-
-
-
 
     <script src="/assets/js/bootstrap.bundle.js""></script>
 </body>
