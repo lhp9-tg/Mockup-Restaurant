@@ -14,8 +14,8 @@
 <body>
 
     <header id="home">
-        <div class="bg-dark g-0">
-            <div class="row align-items-center bg-dark mx-lg-5 py-lg-1">
+        <div class="sticky-top bg-dark g-0">
+            <div class="row align-items-center bg-dark m-0 px-lg-5 py-lg-1">
 
                 <!-- Logo -->
 
@@ -27,18 +27,15 @@
 
                 <nav class="col-lg-11 navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">
                     <div class="container-fluid">
-                    <a class="navbar-brand ps-2" href="#home">Pickles Burger</a>
+                    <a class="navbar-brand ps-2" href="index.html">Pickles Burger</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end ps-3" id="navbarNavDropdown">
                         <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Menu
+                                Burgers
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#cheese">Cheeseburger</a></li>
@@ -63,7 +60,7 @@
                     </div>
                 </nav>
             
-                <div class="row pt-3 mx-2">
+                <div class="row pt-3 m-0 px-2">
                     <p class="col-lg-6 text-start text-white"><b>Adresse :</b> 35 rue Pierre Guinard, Le Havre, France</p>
                     <p class="col-lg-6 text-end text-white"><b>Téléphone :</b> 09 84 37 58 29</p>
                 </div>
@@ -71,9 +68,9 @@
         </div>
     </header>
 
-    <main>
+    <main class="p-0 m-0">
         <!-- Carrousel -->
-        <div class="carrousel">
+        <div class="carrousel mt-0">
             <div class="col-4 mx-auto d-none d-lg-block d-xl-block d-xxl-block mt-5">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -86,20 +83,17 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
                     </div>
                     <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="/assets/img/cheese.jpg" class="rounded d-block w-100" alt="Cheeseburger">
+                        <img src="assets/img/cheese.jpg" class="rounded d-block w-100" alt="Cheeseburger">
                         <div class="carousel-caption d-none d-md-block">
                         <h5>Cheeseburger</h5>
                         <p>Boeuf haché, cheddar 9 mois, oignons frits, iceberg, pickles, sauce mayonnaise, ketchup & moutarde américaine.</p>
                         </div>
                     </div>
                     <div class="carousel-item"data-bs-interval="5000">
-                        <img src="/assets/img/don.jpg" class="rounded d-block w-100" alt="Don Gorske">
+                        <img src="assets/img/don.jpg" class="rounded d-block w-100" alt="Don Gorske">
                         <div class="carousel-caption d-none d-md-block">
                         <h5>Don Gorske</h5>
                         <p>Boeuf haché, cheddar 9 mois, iceberg, oignons, pickles, sauce.</p>
@@ -113,42 +107,42 @@
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval=5000">
-                        <img src="/assets/img/cowboy.jpg" class="rounded d-block w-100" alt="Cowboy">
+                        <img src="assets/img/cowboy.jpg" class="rounded d-block w-100" alt="Cowboy">
                         <div class="carousel-caption d-none d-md-block">
                         <h5>Cowboy</h5>
                         <p>Boeuf haché, poitrine fumée, cheddar 18 mois, beignets d'oignons, oignons confits, sauce mayonnaise et barbecue.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval=5000">
-                        <img src="/assets/img/mali.jpg" class="rounded d-block w-100" alt="Maliblue">
+                        <img src="assets/img/mali.jpg" class="rounded d-block w-100" alt="Maliblue">
                         <div class="carousel-caption d-none d-md-block">
                         <h5>Maliblue</h5>
                         <p>Boeuf haché, poitrine fumée, blue stilton, iceberg, pickles, oignons confits, sauce mayonnaise et porto.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval=5000">
-                        <img src="/assets/img/nwc.jpg" class="rounded d-block w-100" alt="Normandy West Coast">
+                        <img src="assets/img/nwc.jpg" class="rounded d-block w-100" alt="Normandy West Coast">
                         <div class="carousel-caption d-none d-md-block">
                         <h5>Normandy West Coast</h5>
                         <p>Boeuf haché, poitrine fumée, camembert, iceberg, oignons frits, gelée de cidre, pickles de graine de moutarde, sauce moutarde au miel.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval=5000">
-                        <img src="/assets/img/cali2.jpg" class="rounded d-block w-100" alt="California Love">
+                        <img src="assets/img/cali2.jpg" class="rounded d-block w-100" alt="California Love">
                         <div class="carousel-caption d-none d-md-block">
                         <h5>California Love</h5>
                         <p>Boeuf haché, cheddar 9 mois, iceberg, oignons frits, guacamole, pickles, sauce mayonnaise chipotle.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval=5000">
-                        <img src="/assets/img/blackjack.jpg" class="rounded d-block w-100" alt="Black Jack">
+                        <img src="assets/img/blackjack.jpg" class="rounded d-block w-100" alt="Black Jack">
                         <div class="carousel-caption d-none d-md-block">
                         <h5>Black Jack</h5>
                         <p>Pain burger NOIR, boeuf haché, poitrine fumée, cheddar 9 mois, iceberg, oignons frits, pickles, sauce mayonnaise & barbecue JACK DANIEL'S</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval=5000">
-                        <img src="/assets/img/cfc2.jpg" class="rounded d-block w-100" alt="Crispy Fried Chicken">
+                        <img src="assets/img/cfc2.jpg" class="rounded d-block w-100" alt="Crispy Fried Chicken">
                         <div class="carousel-caption d-none d-md-block">
                         <h5>Crispy Fried Chicken</h5>
                         <p>Haut de cuisse de poulet mariné dans du buttermilk, pané, poitrine fumée, cheddar 9 mois, iceberg, oignons frits, pickles, sauce bacconnaise</p>
@@ -169,13 +163,12 @@
 
         <!-- Menu -->
 
-        <div id="menu" class="h1 text-center mt-5"><span class="bg-white px-2">MENU</span></div>
+        <div id="menu" class="h1 text-center mt-5"><span class="bg-white px-2">BURGERS</span></div>
         <div class="titleline border-top border-dark mb-3"></div>
 
- 
         <!-- Cheeseburger ok    -->
 
-        <div id="cheese" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 ">
+        <div id="cheese" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 ">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Cheeseburger</p>
             </div> 
@@ -188,10 +181,10 @@
                 <div class="text-end pt-2">9,00€</div>
             </div>
         </div>
-
+    
         <!-- Don Gorske ok -->
 
-        <div id="don" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 ">
+        <div id="don" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 ">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Don Gorske</p>
             </div> 
@@ -208,7 +201,7 @@
 
         <!-- Smash ok -->
 
-        <div id="smash" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 ">
+        <div id="smash" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 ">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Smash</p>
             </div> 
@@ -224,7 +217,7 @@
 
         <!-- Hot Sriracha -->
 
-        <div id="hot" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 ">
+        <div id="hot" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 ">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Hot Sriracha</p>
             </div> 
@@ -240,7 +233,7 @@
 
         <!-- Cowboy ok -->
 
-        <div id="cowboy" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 ">
+        <div id="cowboy" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 ">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Cowboy</p>
             </div> 
@@ -256,7 +249,7 @@
 
         <!-- Maliblue ok -->
 
-        <div id="mali" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+        <div id="mali" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 "">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Maliblue</p>
             </div> 
@@ -272,7 +265,7 @@
 
         <!-- Normandy West Coast ok -->
 
-        <div id="nwc" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+        <div id="nwc" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 "">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Normandy West Coast</p>
             </div> 
@@ -288,7 +281,7 @@
 
         <!-- California Love ok -->
 
-        <div id="cali" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+        <div id="cali" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 "">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">California Love</p>
             </div> 
@@ -304,7 +297,7 @@
 
         <!-- Black Jack ok -->
 
-        <div id="blackjack" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+        <div id="blackjack" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 "">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Black Jack</p>
             </div> 
@@ -320,7 +313,7 @@
 
         <!-- Crispy Fried Chicken ok -->
 
-        <div id="cfc" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+        <div id="cfc" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 "">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Crispy Fried Chicken</p>
             </div> 
@@ -336,7 +329,7 @@
 
         <!-- Badhass (Végétarien) -->
 
-        <div id="bad" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+        <div id="bad" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 "">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Badhass (Végétarien)</p>
             </div> 
@@ -353,7 +346,7 @@
 
         <!-- Bacon Beyond Cheese (Végétarien) -->
 
-        <div id="beyond" class="row col-lg-10 justify-content-center align-items-center rounded mx-2 mx-lg-auto mb-2 mt-lg-2 bg-secondary text-dark bg-opacity-25 "">
+        <div id="beyond" class="row col-lg-10 justify-content-center align-items-center rounded m-0 mx-auto mb-2 px-2 pb-2 pt-lg-2 bg-secondary text-dark bg-opacity-25 "">
             <div class="col-lg-2 fw-bold">
                 <p class="text-uppercase">Bacon Beyond Cheese (Végétarien)</p>
             </div> 
@@ -367,6 +360,7 @@
             </div>
         </div>
 
+
         <!-- Addons -->
 
         <div id="addons" class="addon bg-dark text-white mt-5 pt-3">
@@ -377,7 +371,7 @@
 
             <p class="fst-italic text-center">*Sauces BBQ et Kimchi non adaptées au regime alimentaire végétarien.</p>
 
-            <div class="row justify-content-center">
+            <div class="row m-0 justify-content-center">
                 <div class="col-lg-4">
                     <div class="h1 text-center mt-3"><span class="title_bg bg-dark px-2">FRITES</span></div>
                     <div class="titleline_black border-top mb-3"></div>
@@ -436,7 +430,8 @@
     </main>
 
     <footer>
-        <div class="row mentions mx-2 my-5">
+        <div class="text-center fs-2 m-3">Site fictif</div>
+        <div class="row mentions m-0">
             <div class="col-5 pb-4">Propriété intellectuelle contenu et images <a href="https://www.facebook.com/people/Pickles-Burger/100038120624661/"><i class="bi bi-facebook"></i>Pickles Burger Le Havre</a></div>
             <div class="col-lg-2 pb-4">Hébergé par <i class="bi bi-github"></i>GitHub</div>
             <div class="col-lg-5 pb-4 text-end">Créateur Thomas Gouel @<a href="mailto: thomas.gouel@gmail.com">thomas.gouel@gmail.com</a></div>
