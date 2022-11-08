@@ -25,7 +25,7 @@ body {
 /* Carouselle */
 
 .carrousel {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(87, 87, 87, 0.8)), url(assets/img/buns.jpg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(87, 87, 87, 0.8)), url(../img/buns.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
