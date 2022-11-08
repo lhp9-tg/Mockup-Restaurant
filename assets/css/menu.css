@@ -25,14 +25,12 @@ body {
 /* Carouselle */
 
 .carrousel {
-    background-image: url(/assets/img/buns.jpg);
-    background-size: 50%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(87, 87, 87, 0.8)), url(assets/img/buns.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .psa {
     font-size: small;
-}
-
-mentions {
-    
 }
